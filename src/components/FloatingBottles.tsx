@@ -197,16 +197,15 @@ export function FloatingBottles() {
           className="fade-rise shimmer-text mt-4 font-serif text-5xl font-bold tracking-tight sm:text-7xl md:text-8xl"
           style={{ "--delay": "0.45s" } as React.CSSProperties}
         >
-          Ten Bottles,
+          Loosu Cuties,
           <br />
-          Zero Gravity
+          goofy asss.
         </h1>
         <p
           className="fade-rise mt-6 max-w-md text-sm leading-relaxed text-muted-foreground sm:text-base"
           style={{ "--delay": "0.7s" } as React.CSSProperties}
         >
-          A drifting constellation of glass and light — move your cursor and
-          watch the bottles sway with you.
+          Zero talent, 100% confidences
         </p>
       </div>
 
