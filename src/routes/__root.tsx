@@ -1,8 +1,3 @@
-declare module "*.css" {
-  const css: { [key: string]: string };
-  export default css;
-}
-
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import {
   Outlet,
@@ -92,12 +87,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
-      {
-        rel: "stylesheet",
-        href: appCss,
-      },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
-    ],
+  { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+],
   }),
   shellComponent: RootShell,
   component: RootComponent,
