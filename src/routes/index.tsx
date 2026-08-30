@@ -5,7 +5,7 @@ import { FloatingBottles } from "@/components/FloatingBottles";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "The Floating Cellar — Ten Bottles in Zero Gravity" },
+      { title: "Floating Friends" },
       {
         name: "description",
         content:
@@ -15,7 +15,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Ten glowing bottles drift through ambient light in a smooth, animated zero-gravity scene.",
+          "Made this, coz im bored.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
