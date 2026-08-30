@@ -9,9 +9,9 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "A creative, animated scene of ten glowing bottles drifting through light — smooth motion, ambient glows, and cursor parallax.",
+          "Made this, coz im bored.",
       },
-      { property: "og:title", content: "The Floating Cellar — Ten Bottles in Zero Gravity" },
+      { property: "og:title", content: "Floating Friends" },
       {
         property: "og:description",
         content:
