@@ -1,9 +1,15 @@
 import { useEffect, useRef } from "react";
 
-// Dynamically import bottles to avoid module resolution errors
-const bottleImports = Array.from({ length: 10 }, (_, i) => 
-  import.meta.glob("@/assets/bottle-*.png", { eager: true })[`/src/assets/bottle-${i + 1}.png`]?.default || ""
-);
+import bottle1 from "@/assets/bottle-1.png";
+import bottle2 from "@/assets/bottle-2.png";
+import bottle3 from "@/assets/bottle-3.png";
+import bottle4 from "@/assets/bottle-4.png";
+import bottle5 from "@/assets/bottle-5.png";
+import bottle6 from "@/assets/bottle-6.png";
+import bottle7 from "@/assets/bottle-7.png";
+import bottle8 from "@/assets/bottle-8.png";
+import bottle9 from "@/assets/bottle-9.png";
+import bottle10 from "@/assets/bottle-10.png";
 
 interface BottleSpec {
   src: string;
